@@ -15,6 +15,7 @@
     </ul>
 </div>
 
-<script charset="utf-8" src="main.js"></script>
+<script charset="utf-8" src="basic/todo.js"></script>
+<!--<script charset="utf-8" src="main.js"></script> -->
 </body>
 </html>
