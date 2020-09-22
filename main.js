@@ -18,9 +18,9 @@ let app = new Vue({
     },
 
     methods : {
-        c : function()
+        clicker: function()
         {
-            console.log("CLICKE");
+            console.log("Clicked.");
         }
     }
 });
