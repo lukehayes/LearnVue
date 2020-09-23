@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>App</title>
+    <link rel="stylesheet" href="basic/todo/style.css" title="" type="">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 
 </div>
 
-<script charset="utf-8" src="basic/todo.js"></script>
+<script charset="utf-8" src="basic/todo/todo.js"></script>
 <!--<script charset="utf-8" src="main.js"></script> -->
 </body>
 </html>
