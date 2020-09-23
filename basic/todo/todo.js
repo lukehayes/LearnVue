@@ -9,6 +9,14 @@ let noteInput = document.getElementById('note-input');
 function addButton(title) {
     let elem = document.createElement('button');
     elem.innerText = title;
+
+    elem.addEventListener('mousedown', function(e)
+    {
+        let parent = elem.parentElement;
+        notes.removeChild(parent);
+    });
+
+
     return elem;
 }
 
