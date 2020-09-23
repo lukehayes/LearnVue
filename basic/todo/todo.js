@@ -5,6 +5,14 @@
 let app = document.getElementById('app');
 let notes = document.getElementById('notes');
 let noteInput = document.getElementById('note-input');
+let storage = window.localStorage;
+let storageKey = 0;
+
+function addToStorage(item)
+{
+    storageKey += 1;
+    storage.setItem(storageKey, item);
+}
 
 function addButton(title) {
     let elem = document.createElement('button');
@@ -16,7 +24,6 @@ function addButton(title) {
         notes.removeChild(parent);
     });
 
-
     return elem;
 }
 
@@ -27,11 +34,13 @@ noteInput.addEventListener('keydown', function(e) {
         let elem = document.createElement("DIV");
         elem.className = "note";
         elem.innerText = note;
-
         let btn = addButton('Remove');
+
+        addToStorage(note);
 
         elem.appendChild(btn);
         notes.appendChild(elem);
+
     }
 });
 
