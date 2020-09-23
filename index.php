@@ -9,7 +9,9 @@
 
 <div id="app">
     
-    <input type="text" id="note-input" placeholder="Add a new note...">
+    <div id="note-form">
+        <input type="text" id="note-input" placeholder="Add a new note...">
+    </div>
 
     <div id="notes"></div>
 
