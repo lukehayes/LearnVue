@@ -22,8 +22,8 @@ noteInput.addEventListener('keydown', function(e) {
 
         let btn = addButton('Remove');
 
+        elem.appendChild(btn);
         notes.appendChild(elem);
-        notes.appendChild(btn);
     }
 });
 
