@@ -1,0 +1,40 @@
+$width : 800px;
+
+html {
+    font-family: "Inter";
+    background-color: #EFEFEF;
+    margin-top: 30px;
+}
+
+@mixin center {
+    width: $width;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#note-form {
+
+    @include center;
+
+    input {
+        width: 100%;
+    }
+}
+
+
+#notes {
+
+    @include center;
+    text-align: left;
+    margin-top: 30px;
+
+    .note {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 10px 30px 10px 0px;
+
+        button {
+            margin-left: 50px;
+        }
+    }
+}

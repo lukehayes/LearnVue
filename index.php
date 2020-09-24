@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vue</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+    <title>App</title>
+    <link rel="stylesheet" href="basic/todo/style.css" title="" type="">
 </head>
 <body>
 
 <div id="app">
-<input type="text" v-model="n">
-{{n}}
-    <ul>
-        <todo-item v-for="todo in todos" v-bind:todo="todo">{{todo}}</todo-item>
-    </ul>
+    
+    <div id="note-form">
+        <input type="text" id="note-input" placeholder="Add a new note...">
+    </div>
+
+    <div id="notes"></div>
+
 </div>
 
-<script charset="utf-8" src="main.js"></script>
+<script charset="utf-8" src="basic/todo/todo.js"></script>
+<!--<script charset="utf-8" src="main.js"></script> -->
 </body>
 </html>
