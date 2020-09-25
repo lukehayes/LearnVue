@@ -17,7 +17,7 @@
 
 </div>
 
-<script charset="utf-8" src="basic/todo/todo.js"></script>
+<script charset="utf-8" src="basic/todo/todo.js" type="module"></script>
 <!--<script charset="utf-8" src="main.js"></script> -->
 </body>
 </html>
