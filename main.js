@@ -10,28 +10,28 @@ let app = new Vue({
     data: {
         text: 'Application Instance',
         users: null,
-        show: true
+        show: true,
+        posts: [
+            { id: 1, title: 'My journey with Vue' },
+            { id: 2, title: 'Blogging with Vue' },
+            { id: 3, title: 'Why Vue is so fun' }
+        ]
     },
 
     methods: {
+        /**
+         * Test HTTP request for debugging
+         */
         request: function()
         {
-
-fetch('https://jsonplaceholder.typicode.com/users')
-  .then((response) => response.json())
-  .then((json) => this.users = json);
-            //let request = new XMLHttpRequest();
-            //request.open('https://jsonplaceholder.typicode.com/posts/1');
-            //request.send();
-
-            //console.debug(request);
-
+            fetch('https://jsonplaceholder.typicode.com/users')
+                .then((response) => response.json())
+                .then((json) => this.users = json);
         }
     },
 
     mounted: function()
     {
-        console.log(this.request());
     }
 
 });
