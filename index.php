@@ -9,12 +9,7 @@
 <body>
 
 <div id="app">
-    <div class="post">
-        <h4 class="title" v-for="post in posts">{{ post.title }}</h4>
-    </div>
 </div>
-    
-<!-- <script charset="utf-8" src="basic/todo/todo.js" type="module"></script> -->
-<script charset="utf-8" src="main.js"></script>
+
 </body>
 </html>
