@@ -1,4 +1,3 @@
-#Javascript Playground Project
+#Javascript/Vue Playground Project
 
-This is a javascript playground project. It initially started with Vue(hence the title),
-but I realised I needed to refresh my Javascript knowledge first - thats the basics directory is for.
+This is a javascript and Vue.js playground project. I realised I needed to refresh my Javascript knowledge first to become at least a little competent using Javascript.
