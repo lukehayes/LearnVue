@@ -1,10 +1,3 @@
-
-
-Vue.component('todo-item', {
-    props: ['todo'],
-    template: '<li>{{todo.item}} - <span>{{todo.completed}}</span></li>'
-})
-
 let app = new Vue({
     'el' : '#app',
     'data' : {
