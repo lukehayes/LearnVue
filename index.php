@@ -11,7 +11,9 @@
 <h3>Vue Todo App</h3>
 
 <div id="app">
-    <todo-item text="Learn Javascript"></todo-item>
+    <todo-item :item="{id:1, text:'Learn Vue'}"></todo-item>
+    <todo-item :item="{id:2, text:'Read The Pragmatic Programmer'}"></todo-item>
+    <todo-item :item="{id:3, text:'Build A Startup'}"></todo-item>
 </div>
 
 <script src="components/todo/todo-item.js"></script>
