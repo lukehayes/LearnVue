@@ -1,6 +1,6 @@
 
 Vue.component('todo-item', {
-    props: ['text'],
-    template: '<p> {{text}} <p>';
+    props: ['item'],
+    template: '<p> {{item.id}} - {{item.text}} </p>'
 })
 

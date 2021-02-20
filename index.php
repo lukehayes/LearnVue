@@ -10,10 +10,14 @@
 
 <h3>Vue Todo App</h3>
 
+<p>Hey</p>
+<p>Boo</p>
+<p>Shamalam</p>
+
 <div id="app">
-    <todo-item :item="{id:1, text:'Learn Vue'}"></todo-item>
-    <todo-item :item="{id:2, text:'Read The Pragmatic Programmer'}"></todo-item>
-    <todo-item :item="{id:3, text:'Build A Startup'}"></todo-item>
+    <todo-item :style="{fontSize: postFontSize + 'em'}":item="{id:1, text:'Learn Vue'}"></todo-item>
+    <todo-item :style="{fontSize: postFontSize + 'em'}":item="{id:2, text:'Read The Pragmatic Programmer'}"></todo-item>
+    <todo-item :style="{fontSize: postFontSize + 'em'}":item="{id:3, text:'Build A Startup'}"></todo-item>
 </div>
 
 <script src="components/todo/todo-item.js"></script>
