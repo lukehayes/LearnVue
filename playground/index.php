@@ -8,6 +8,8 @@
 
 <div id="app"></div>
 
+<script src="UILib/elements.js"></script>
+<script src="UILib/form.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
