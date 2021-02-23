@@ -5,7 +5,7 @@ function UIForm(method, action, parent)
 {
     let element = document.createElement("FORM");
     element.method = method;
-    element.action = method;
+    element.action = action;
     parent.appendChild(element);
     return element;
 }
