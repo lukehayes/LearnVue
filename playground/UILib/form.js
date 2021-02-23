@@ -7,5 +7,5 @@ function basicForm(method, action, parent)
     element.method = method;
     element.action = method;
     parent.appendChild(element);
-    return parent;
+    return element;
 }
